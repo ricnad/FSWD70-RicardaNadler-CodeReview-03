@@ -20,17 +20,6 @@ function calculateInsurance() {
 	console.log(country);
 	console.log(horse_power);
 	console.log(age);
-	// if (country == "Austria"){
-	// 	var insurance = horse_power*100/age+50;
-	// 	document.getElementById('result_insurance').innerHTML= name + ', your insurance costs '+ Math.floor(insurance) +' Euro';
-	// 	}
-	// 	else (country == "Hungary"){
-	// 	var insurance1 = horse_power*120/age+100;
-	// 	document.getElementById('result_insurance').innerHTML= name + ', your insurance costs '+ Math.floor(insurance1) +' Euro';
-	// 	}
-	// 	else {
-	// 	document.getElementById('result_insurance').innerHTML= name + 'No country selected';
-	// 	}
 
 	switch (country) {
 	   case 'Austria':
@@ -49,7 +38,10 @@ function calculateInsurance() {
 	   		document.getElementById('result_insurance').innerHTML= 'Select a country';
 	       	break;
 }	
-
 };
+
+var team = JSON.parse(data);
+
+console.log(team);
 
 sum();

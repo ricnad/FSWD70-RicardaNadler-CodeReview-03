@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Team</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+</head>
+<body>
+<!--header-->
+	<header id="header" class="">
+		<img src="img/logo.png" alt="Logo CF">
+		<img src="img/banner.png" alt="Banner Insurance CF">
+	</header>
+
+<!--navigation bar-->
+	<nav>
+		<ul>
+			<li><a href="index.html" title="">Home</a></li>
+			<li><a href="team.html" title="">Team</a></li>
+		</ul>
+	</nav>
+
+
+<!--footer-->
+	<footer>
+		<ul>
+			<li><a href="index.html" title="">Home</a></li>
+			<li><a href="team.html" title="">Team</a></li>
+		</ul>
+		<img src="img/logo-inv.png" alt="Lovo Inv">
+		<p>Ricarda Nadler - CodeFactory 2019</p>
+		
+	</footer>
+
+<script type="text/javascript"  src="javascript/data.json"></script>
+
+   <script>
+
+   var mydata = JSON.parse(data); // convert string into an object
+
+   console.log(mydata); // prints converted object into the console
+
+   var i = 0;
+   document.writeln("<table border='0'>");
+    for (i = 0; i < mydata.length; i++) 
+    {
+    document.write(`
+			<table border='1' width=400>
+							
+			<tr> 
+			<td><b>Name</b></td>
+			<td>${mydata[i].name1}</td>
+			</tr>
+
+			<tr> 
+			<td><b>E-Mail</b></td>
+			<td>${mydata[i].email}</td>
+			</tr>
+
+			<tr> 
+			<td><b>Image</b></td>
+			<td><img src=${mydata[i].image} alt="Pictures" height=60px width=60</td><br>
+			</tr>
+    			`);
+    		}
+
+</script>
+
+</body>
+</html>
