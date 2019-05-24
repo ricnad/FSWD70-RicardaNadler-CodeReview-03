@@ -1,0 +1,42 @@
+h4 {
+  text-align: center;
+  font-size: 2em; }
+
+.table-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 80px 10em 20em;
+  grid-gap: 5px;
+  grid-row-gap: 5px;
+  background-color: #CECECE;
+  padding: 1em;
+  margin: 2em 10em; }
+
+.table-container > div {
+  background-color: #8E1616;
+  text-align: left;
+  padding: 10px 5px;
+  padding-left: 10px;
+  font-size: 1.5em;
+  font-family: Arial;
+  display: flex;
+  align-items: center;
+  color: white;
+  opacity: 0.7; }
+
+footer {
+  background-color: #171717;
+  font-family: Arial;
+  color: white;
+  display: grid;
+  widows: 100vw;
+  font-size: 0.8em; }
+
+.logofooter {
+  text-align: right;
+  margin: 1.5em; }
+
+.copyfooter {
+  text-align: center; }
+
+/*# sourceMappingURL=team.css.map */

@@ -16,7 +16,7 @@ a {
 nav {
   background-color: #8E1616;
   height: 50px;
-  font-family: Arial;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
   font-size: 1em;
   font-weight: bold;
   letter-spacing: 1px;
@@ -35,12 +35,17 @@ nav li, footer li {
 
 #car {
   width: vw;
-  height: 800px;
+  height: 620px;
   background-color: #CECECE;
   background-image: url(img/traffic-332857_1920.jpg);
   background-size: cover;
   color: white;
-  border-top: 1px solid #CECECE; }
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-weight: normal;
+  font-size: 2em;
+  border-top: 1px solid #CECECE;
+  padding-left: 1.5em;
+  padding-top: 1.8em; }
 
 h1 {
   padding-top: 1em;
@@ -60,71 +65,79 @@ h1 {
   display: flex;
   justify-content: center; }
 
+#cov1 {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 2em; }
+
+#cov2 {
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 1em;
+  text-align: center; }
+
 #cov_info {
   display: flex;
   justify-content: space-between;
   margin: 4em 2em; }
 
 #box1 {
-  border: 1px solid green;
   position: absolute;
   top: 300px;
   left: 50px;
-  height: 500px;
+  height: 570px;
   width: 80%;
   display: grid;
   grid-template-columns: 5% auto 10% auto 10% auto 5%;
   grid-template-rows: 20% auto auto auto 15%;
   margin: 3em;
   background-color: #CECECE;
-  opacity: 0.7; }
+  opacity: 0.7;
+  border: 2px solid #9E9E9E; }
 
 .form1 {
-  border: 1px solid green;
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 1;
   grid-row-end: 2;
-  text-align: center; }
+  text-align: center;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 2em;
+  font-weight: bold; }
 
 .form2 {
-  border: 1px solid green;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3; }
 
 .form3 {
-  border: 1px solid green;
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 2;
   grid-row-end: 3; }
 
 .form4 {
-  border: 1px solid green;
   grid-column-start: 2;
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4; }
 
 .form5 {
-  border: 1px solid green;
   grid-column-start: 5;
   grid-column-end: 7;
   grid-row-start: 3;
   grid-row-end: 4; }
 
 .form7 {
-  border: 1px solid green;
   grid-column-start: 1;
   grid-column-end: 8;
   grid-row-start: 5;
   grid-row-end: 6;
-  text-align: center; }
+  text-align: center;
+  color: #339235;
+  size: 3em;
+  font-weight: bold; }
 
 .box2 {
-  border: 1px solid blue;
   position: absolute;
   top: 710px;
   left: 97px;
@@ -134,7 +147,7 @@ h1 {
   text-align: center; }
 
 #button_calculate {
-  background: green;
+  background: #339235;
   border-radius: 15px;
   width: 200px;
   height: 50px;
@@ -145,16 +158,42 @@ h1 {
   text-align: left;
   width: 25%;
   padding-left: 1.5em;
-  border: 1px solid lightgrey;
-  border-top: 1px solid #171717;
-  box-shadow: 1px 5px 5px grey; }
+  border: 1px solid #D7D7D7;
+  border-top: 2px solid #9E9E9E;
+  box-shadow: 1px 5px 5px #D7D7D7;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 0.8em; }
+
+.infobox2 {
+  font-size: 1.2em;
+  font-weight: bold; }
+
+.infobox3 {
+  font-weight: bold; }
+
+#age, #first_name, #country, #horsepower {
+  height: 2em;
+  width: 20em;
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  font-size: 1em; }
 
 ul {
   padding-left: 0.6em; }
 
 footer {
   background-color: #171717;
-  color: white; }
+  font-family: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue";
+  color: white;
+  display: grid;
+  widows: 100vw;
+  font-size: 0.8em; }
+
+.logofooter {
+  text-align: right;
+  margin: 1.5em; }
+
+.copyfooter {
+  text-align: center; }
 
 .lista {
   list-style-type: none; }

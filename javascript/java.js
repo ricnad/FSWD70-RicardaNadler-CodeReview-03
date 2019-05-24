@@ -1,13 +1,3 @@
-console.log("Hello");
-
-function sum(){
-	var a=4;
-	var b=5;
-	var sum=a+b;
-	console.log(sum);
-}
-
-
 function calculateInsurance() {
 	var name= document.getElementById('first_name').value;
 	var age1= document.getElementById('age').value;
@@ -40,8 +30,3 @@ function calculateInsurance() {
 }	
 };
 
-var team = JSON.parse(data);
-
-console.log(team);
-
-sum();

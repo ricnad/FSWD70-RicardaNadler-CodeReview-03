@@ -1,0 +1,59 @@
+//Background Colors
+$prim-col: #FFF3F3;
+$sec-col: #8E1616;
+$ter-col: #CECECE;
+$quart-col: #171717;
+
+//Font Colors
+$font-col1: white;
+$font-col2: black;
+
+//Font Family
+$font1: Arial;
+
+h4{
+	text-align: center;
+	font-size:2em;
+}
+
+.table-container{
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 80px 10em 20em;
+  	grid-gap: 5px;
+  	grid-row-gap: 5px;
+  	background-color: $ter-col;
+	padding: 1em;
+	margin: 2em 10em;
+}
+
+.table-container > div {
+  background-color: $sec-col;
+  text-align: left;
+  padding: 10px 5px;
+  padding-left:10px;
+  font-size: 1.5em;
+  font-family: $font1;
+  display: flex;
+  align-items: center;
+  color: $font-col1;
+  opacity:0.7;
+}
+
+footer{
+	background-color: $quart-col;
+	font-family:$font1;
+	color: $font-col1;
+	display: grid;
+	widows: 100vw;
+	font-size:0.8em;
+}
+
+.logofooter{
+	text-align: right;
+	margin: 1.5em;
+}
+
+.copyfooter{
+	text-align: center;
+}
