@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Index</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+</head>
+<body>
+<!--header-->
+	<header id="header" class="">
+		<img src="img/logo.png" alt="Logo CF">
+		<img src="img/banner.png" alt="Banner Insurance CF">
+	</header>
+
+<!--navigation bar-->
+	<nav>
+		<ul>
+			<li><a href="index.html" title="">Home</a></li>
+			<li><a href="team.html" title="">Team</a></li>
+		</ul>
+	</nav>
+<!--main part-->
+	<div id="car">
+		<h1>Car insurance</h1>
+	</div>
+
+
+
+	<div id="box1">
+		<div class="form1">
+			Great coverage begins <br>
+			with a custom quote
+		</div>
+		<div class="form2">
+			Your name: <br>
+			<input type="text" name="name"value="First name" id="first_name">	
+		</div>
+		<div class="form3">
+			Age: <br>
+			<input type="text" name="age" id="age">	
+		</div>
+		<div class="form4">
+			Country: <br>
+				<select name="country" id="country" >
+					<option value="austria" >Austria</option>
+					<option value="hungary" >Hungary</option>
+					<option value="greece" >Greece</option>
+				</select>
+		</div>
+		<div class="form5">
+			Horsepower of your car: <br>
+			<input type="text" name="horsepower" value="" id="horsepower">
+		</div>
+		<div class="form7" id="result_insurance">
+		</div>
+	</div>
+
+	<!-- Push DIV on top-->
+	<div class="box2">
+			<button type="button" onclick="calculateInsurance()" id="button_calculate">Calculate</button>
+	</div>
+		
+	</div>
+	<div id="cov_header">
+		<div class="cov1">
+			<h2>Un-complicating car coverage</h2>
+		</div>
+		<div class="cov1">
+			<p>
+			Understanding your coverage options shouldn't be so hard.<br>
+			We'll guide you through available coverage types,<br>
+			starting with who and what is covered.
+			</p>
+		</div>
+	</div>
+
+	<div id="cov_info">
+		<div id="standard" class="infobox1">
+			<h4>What comes standard</h4> <br>
+			<p>The coverage you need</p>
+			<ul class="lista">
+				<li class="listb">Bodily Injury Liability</li>
+				<li class="listb">Property Damage</li>
+				<li class="listb">Medical Payments</li>
+			</ul>	
+			<p>Benefits</p>
+			<p>12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+		</div>
+		<div id="add-on" class="infobox1">
+			<h4>Add-on protection & coverage</h4>
+			<p>For more peace of mind</p>
+			<ul class="lista">
+				<li class="listb">Better Car Replacement</li>
+				<li class="listb">Towing & Labor</li>
+				<li class="listb">Rental Car Coverage</li>
+			</ul>
+			<p>Earned benefits</p>
+			<p>Accident Forgiveness' | New Car Replacement &trade;</p>
+		</div>	
+	</div>
+
+
+
+<!--footer-->
+	<footer>
+		<ul>
+			<li><a href="index.html" title="">Home</a></li>
+			<li><a href="team.html" title="">Team</a></li>
+		</ul>
+		<img src="img/logo-inv.png" alt="Lovo Inv">
+		<p>Ricarda Nadler - CodeFactory 2019</p>
+		
+	</footer>
+
+
+<script language="javascript" type="text/javascript" src="javascript/java.js"></script>
+
+</body>
+</html>
