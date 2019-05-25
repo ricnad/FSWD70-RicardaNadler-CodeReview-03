@@ -16,8 +16,8 @@ $font1: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue";
 $shadow1: #9E9E9E;
 $shadow2: #D7D7D7;
 
-/* Laptop and PC*/
-@media only screen and (min-width:800px) {
+/* Mobile*/
+@media only screen and (max-width:800px) {
 
 header {
 	background-color: $prim-col;
@@ -90,7 +90,7 @@ h1 {
 
 #cov1{
 	font-family:$font1;
-	font-size:2em;
+	font-size:1.5em;
 }
 
 #cov2{
@@ -100,20 +100,20 @@ h1 {
 }
 
 #cov_info{
-	display:flex;
-	justify-content: space-around;
+	display:grid;
+	justify-content: center;
 	margin: 4em 2em;
 }
 
 #box1 {
   position: absolute;
   top: 300px;
-  left: 50px;
+  left: 15px;
   height: 570px;
   width: 80%;
   display: grid;
-  grid-template-columns: 5% auto 10% auto 10% auto 5%;
-  grid-template-rows: 20% auto auto auto 15%;
+  grid-template-columns: 10% auto 10%;
+  grid-template-rows: 15% auto auto auto auto auto 15%;
   margin: 3em;
   background-color: #CECECE;
   opacity: 0.7; 
@@ -122,82 +122,84 @@ h1 {
 
 .form1{
 	grid-column-start: 1;
-  	grid-column-end: 8;
+  	grid-column-end: 4;
   	grid-row-start: 1;
   	grid-row-end: 2;
   	text-align: center;
   	font-family: $font1;
-  	font-size: 2em;
+  	font-size: 1.5em;
   	font-weight: bold;
 }
 
 .form2{
 	grid-column-start: 2;
-  	grid-column-end: 4;
+  	grid-column-end: 3;
   	grid-row-start: 2;
  	grid-row-end: 3;
 }
 
 .form3{
-	grid-column-start: 5;
-  	grid-column-end: 7;
-  	grid-row-start: 2;
-  	grid-row-end: 3;
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 3;
+  	grid-row-end: 4;
 }
 
 .form4{
 	grid-column-start: 2;
-  	grid-column-end: 4;
-  	grid-row-start: 3;
-  	grid-row-end: 4;
+  	grid-column-end: 3;
+  	grid-row-start: 4;
+  	grid-row-end: 5;
 }
 
 .form5{
-	grid-column-start: 5;
-  	grid-column-end: 7;
-  	grid-row-start: 3;
-  	grid-row-end: 4;
+	grid-column-start: 2;
+  	grid-column-end: 3;
+  	grid-row-start: 5;
+  	grid-row-end: 6;
 
 }
 
 .form7{
 	grid-column-start: 1;
-  	grid-column-end: 8;
-  	grid-row-start: 5;
-  	grid-row-end: 6;
+  	grid-column-end: 3;
+  	grid-row-start: 7;
+  	grid-row-end: 8;
  	text-align: center;
  	color: $fif-col;
- 	font-size: 2em;
+ 	font-size: 1.5em;
  	font-weight:bold;
 }
 
 .box2 {
 	  position: absolute;
-	  top: 710px;
-	  left: 97px;
+	  top: 780px;
+	  left: 120px;
 	  height: 55px;
 	  width: 80%;
 	  justify-content: center;
-	  text-align: center; }
+	  text-align: left; 
+}
 
 #button_calculate{
 	background: $fif-col;
 	border-radius: 15px;
-	width: 200px;
-	height: 50px;
-	font-size: 2em;
+	width: 150px;
+	height: 40px;
+	font-size: 1.5em;
 	color: $font-col1;
 }
 
 .infobox1{
 	text-align: left;
-	width: 25%;
-	padding-left: 1.5em;
+	width: 80%;
+	padding: 1.5em;
 	border: 1px solid $shadow2;
 	border-top: 2px solid $shadow1;
 	box-shadow: 1px 5px 5px $shadow2;
 	font-family:$font1;
 	font-size:0.8em;
+	margin-bottom: 1em;
 }
 
  .infobox2{

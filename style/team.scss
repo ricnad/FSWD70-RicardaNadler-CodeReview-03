@@ -3,6 +3,8 @@ $prim-col: #FFF3F3;
 $sec-col: #8E1616;
 $ter-col: #CECECE;
 $quart-col: #171717;
+$fif-col: #339235;
+
 
 //Font Colors
 $font-col1: white;
@@ -19,7 +21,7 @@ h4{
 .table-container{
 	display: grid;
 	justify-content: center;
-	grid-template-columns: 80px 10em 20em;
+	grid-template-columns: 80px 20% 50%;
   	grid-gap: 5px;
   	grid-row-gap: 5px;
   	background-color: $ter-col;
@@ -28,7 +30,7 @@ h4{
 }
 
 .table-container > div {
-  background-color: $sec-col;
+  background-color: $fif-col;
   text-align: left;
   padding: 10px 5px;
   padding-left:10px;
@@ -37,7 +39,6 @@ h4{
   display: flex;
   align-items: center;
   color: $font-col1;
-  opacity:0.7;
 }
 
 footer{
